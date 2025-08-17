@@ -1,14 +1,14 @@
-venv-fastapi/        # the whole virtual environment
-__pycache__/         # Python cache
-*.pyc                # compiled bytecode
+/venv-fastapi/
+__pycache__/
+*.pyc
 *.pyo
 *.pyd
-*.log                # log files
-.env                 # actual secrets/configs
-.pytest_cache/       # pytest cache
-.coverage            # test coverage
-htmlcov/             # coverage reports
-.vscode/             # IDE/editor settings
+.env
+*.log
+.vscode/
 .idea/
-.DS_Store            # MacOS junk file
-Thumbs.db            # Windows junk file
+.pytest_cache/
+.coverage
+htmlcov/
+.DS_Store
+Thumbs.db
